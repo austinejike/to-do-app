@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    line-height: 1;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: bottom;
+    border-top: 1px solid #dee2e6;
+}
+.fluid-conta{
+    padding: 0;
+    margin: 0;
+}
+.date{
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 900;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+
+.text1{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 30.7%;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.bodycard{
+    padding: 0;
+    margin: 0;
+}
+.table1{
+    margin-bottom: 0;
+    
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+    margin: 0;
+}
+
+.card-1{
+
+    display: block;
+    position: absolute;
+    top: 35%;
+    padding: 0;
+    margin: 0;
+    right: 30%;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.trow td i.co1{
+    margin: 2px 0 0 5px;
+}
+
+.mycard{
+    padding-bottom: 0;
+}
+.card-2{
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: 30%;
+    width: 500px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+td.co{
+    position: absolute;
+    font-size: 18px;
+    top: 30px;
+    left: 10px;
+}
+.table2 .trow2 td{
+    padding: 2px;
+    margin-bottom: 0;
+
+}
+td i.co2{
+    position: absolute;
+    font-size: 18px;
+    top: 30px;
+    left: 10px;
+}
+.trow2 td p.textp{
+    padding: 4px 0 0 0;
+    margin: 5px 0 0 7px;
+}
+
+input[type="text"]{
+    border: none;
+}
+
+.table3{
+    margin-bottom: 0;
+}
+.table3 td.ptext {
+        /* padding: .75rem; */
+        vertical-align: bottom;
+        border-top: 1px solid #dee2e6;
+        margin: 0;
+}
+.table3 tr p{
+    margin: 0;
+}
+
+.ptext{
+    font-size: 10px;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+/*############### Mobile ###############*/
+@media screen and (max-width: 680px) {
+    .text1{
+        display: block;
+        position: absolute;
+        top: 26%;
+        left: 10%;
+        color: #fff;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+.bgimg{
+    overflow: hidden;
+    margin: 0;
+}
+
+.himg{
+    box-sizing: border-box;
+    min-width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.card-1 {
+    display: flex;
+    position: absolute;
+    top: 34%;
+    padding: 0;
+    margin: 0;
+    right: 10%;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    input[type="text"]{
+        width: auto;
+        border: none;
+    }
+
+    .card-2{
+        display: block;
+        position: absolute;
+        top: 44%;
+        right: 10%;
+        width: 400px;
+        border-radius: 5px;
+        padding: 0;
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    
+}
